@@ -1,0 +1,97 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    background-color: silver;
+    border-bottom: 3px solid crimson;
+    margin-bottom: 10px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+footer {
+    background-color: silver;
+    border-top: 3px solid firebrick;
+    text-align: center;
+    padding: 10px;
+}
+
+article {
+    background-color: firebrick;
+    margin: 0 auto 20px;
+    border: 2px solid silver;
+    padding: 50px;
+    width: 70%;
+    border-radius: 10px;
+}
+
+nav {
+    list-style-type: none;    
+}
+
+.nav-bar, .nav-link {
+    display: inline;
+}
+
+#brand-title {
+    margin-right: 20px;
+    padding-left: 10px;
+}
+
+a {
+    color:black;
+    padding: 5px;
+    text-decoration: none;
+}
+
+a:hover {
+    color:firebrick;
+}
+
+a:active {
+    color: azure;
+}
+
+main {
+    text-align: center;
+}
+
+form {
+    border: 2px dotted black;
+    width: 30%;
+    margin: 0 auto 20px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.form-label {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#profile-picture {
+    border-radius: 50%;
+    width: 25%;
+    border: 2px solid black;
+}
+
+#about-picture {
+    border-radius: 40%;
+    width: 10%;
+    border: 2px solid black;
+    float: left;
+    margin: 0px 0px 0px 0px;
+}
